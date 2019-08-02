@@ -42,8 +42,9 @@
     <body class="bg-primary text-white">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
             @include('inc.commonNav')
+            @include('inc.message')
             @yield('content') 
-            
+
             <footer class="mastfoot mt-auto">
                 {{-- <div class="inner">
                     <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
